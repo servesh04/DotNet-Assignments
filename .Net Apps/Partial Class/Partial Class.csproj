@@ -8,4 +8,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Appointment.BusinessLogic.cs" />
+    <Compile Remove="Appointment.Properties.cs" />
+    <Compile Remove="Appointment.Validation.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Appointment.BusinessLogic.cs" />
+    <None Include="Appointment.Properties.cs" />
+    <None Include="Appointment.Validation.cs" />
+  </ItemGroup>
+
 </Project>
